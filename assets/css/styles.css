@@ -157,6 +157,10 @@ img {
   margin-right: var(--mb-1-5);
 }
 
+.container__letter {
+  align-items: center;
+}
+
 .grid {
   display: grid;
   gap: 1.5rem;
