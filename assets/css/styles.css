@@ -403,6 +403,10 @@ button:hover {
   padding: .75rem 1rem;
 }
 
+.button--thin {
+  padding: .2rem 1rem;
+}
+
 .button--link {
   padding: 0;
   background-color: transparent;
@@ -813,6 +817,10 @@ button:hover {
   transform: translateX(0.25rem);
 }
 
+.wrapper {
+  flex-direction: row;
+}
+
 .swiper-button-prev::after,
 .swiper-button-next::after {
   content: '';
@@ -837,6 +845,14 @@ button:hover {
 
 .space{
   padding-bottom: 5rem;
+}
+
+.space-small{
+  padding-top: .5rem;
+}
+
+.space-3{
+  padding-bottom: 3rem;
 }
 
 .swiper-pagination-bullet-active {
@@ -914,6 +930,13 @@ button:hover {
 
 .swiper-container .swiper-pagination-testimonial {
   bottom: 0;
+}
+
+/*==================== LIST ====================*/
+.list__img {
+  width: 265px;
+  border-radius: .5rem;
+  justify-self: center;
 }
 
 /*==================== CONTACT ME ====================*/
@@ -1268,6 +1291,9 @@ button:hover {
   }
   .footer__copy {
     margin-top: 4.5rem;
+  }
+  .list__img {
+    width: 250px;
   }
 }
 
